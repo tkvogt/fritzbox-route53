@@ -1,0 +1,31 @@
+name:                fritzbox-route53
+version:             0.1.0.0
+#synopsis:
+#description:
+license:             BSD3
+author:              T.Vogt
+maintainer:          tillk.vogt@gmail.com
+copyright:           BSD3, based on shokohara/register-homeip-route53
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - amazonka
+  - amazonka-route53
+  - typed-process
+  - bytestring
+  - lens
+  - text
+  - optparse-generic
+  - string-conversions
+  - servant
+  - servant-server
+  - wai
+  - warp
+
+executables:
+  register-homeip-route53:
+    source-dirs:      src
+    main:             Main.hs
