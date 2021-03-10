@@ -45,13 +45,13 @@ Then go to Internet -> Freigaben -> Dyndns
 
 ![Fritbox Dynamix DNS](dyndns.webp)
 
-and enter your domain name the zone of your dns and this into the Update-URL:
+and enter your domain name and change the zoneid in the following string that is the Update-URL:
 
 `http://localhost:8090/update?hostname=<domain>&zoneid=Z32NAI0V3I6P4A&ipv4=<ipaddr>`
 
 ## Test
 
-* ping your domain
+* Ping your domain
 * Unplug the cable of the fritzbox, wait until the light switches off
 * Plug it in again to get a new ip address
-* ping your domain, and see the new ip
+* Ping your domain, and see the new ip
