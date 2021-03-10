@@ -25,7 +25,7 @@ Assuming Ubuntu
 * `cd fritzbox-route53`
 * Installing Haskell stack: `curl -sSL https://get.haskellstack.org/ | sh`
 * `stack build` in the folder with stack.yaml
-* Run the server in the background: `./.stack-work/install/x86_64-linux-tinfo6/dac5e107f9affd1b3b8c1797ae748b09b977ec0bb02929e29cbc7affc5ad4f04/8.6.3/bin/fritzbox-route53` &
+* Run the server in the background: `./.stack-work/install/x86_64-linux-tinfo6/dac5e107f9affd1b3b8c1797ae748b09b977ec0bb02929e29cbc7affc5ad4f04/8.6.3/bin/fritzbox-route53 &`
 
 *or*
 
