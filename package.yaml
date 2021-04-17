@@ -1,4 +1,4 @@
-name:                fritzbox-route53
+name:                cronjob-route53
 version:             0.1.0.0
 #synopsis:
 #description:
@@ -11,6 +11,7 @@ extra-source-files:
 - README.md
 
 dependencies:
+  - ansi-wl-pprint
   - base >= 4.7 && < 5
   - amazonka
   - amazonka-route53
@@ -18,14 +19,10 @@ dependencies:
   - bytestring
   - lens
   - text
-  - optparse-generic
+  - optparse-applicative
   - string-conversions
-  - servant
-  - servant-server
-  - wai
-  - warp
 
 executables:
-  register-homeip-route53:
+  cronjob-route53:
     source-dirs:      src
     main:             Main.hs
